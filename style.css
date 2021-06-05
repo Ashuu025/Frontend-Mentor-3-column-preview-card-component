@@ -1,0 +1,119 @@
+.root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 50px 20px;
+    color: white;
+    Font size: 15px;
+    
+}
+.container{
+    font-family: "Lexend Deca", sans-serif;
+}
+.attribution { 
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+}
+.attribution a {
+     color: rgb(41, 53, 110);
+}
+.container .pera h1{
+    margin: 20px 0px 20px 0px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.container .pera p{
+    margin: 0 0 30px 0 ;
+}
+.container .pera{
+    padding: 30px;
+    height: 350px;
+}
+.container .pera .bcolor{
+   
+}
+.container .pera1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+.container .pera2{
+    background-color: hsl(184, 100%, 22%);
+}
+.container .pera3{
+    background-color:  hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+.container .pera1 a{
+   
+    color: hsl(31, 96%, 51%);
+    
+}
+.container .pera2 a{
+   
+    color: hsl(183, 100%, 17%);
+    
+}
+.container .pera3 a{
+   
+    color:  hsl(179, 100%, 13%);
+    
+}
+.container .pera a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    
+}
+.container .pera span{
+    display: block;
+    margin-top: 70px;
+}
+@media(min-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto 0px auto;
+    }
+    .container .pera1{
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 10px 0 0 10px;
+    }
+    .container .pera2{
+        background-color: hsl(184, 100%, 22%);
+    }
+    .container .pera3{
+        background-color:  hsl(179, 100%, 13%);
+        border-radius: 0 10px 10px 0;
+    }
+    .container .pera{
+        height: 370px;
+    }
+
+}
+@media(min-width: 992px){
+    body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        max-width: 70%;
+    }
+}
